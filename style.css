@@ -206,8 +206,14 @@ a {
 .title-wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 320px;
+  min-height: 240px;
   justify-content: flex-end;
+}
+
+@media (min-height: 800px) {
+  .title-wrapper {
+    min-height: 320px;
+  }
 }
 
 .text-metal img {
@@ -225,9 +231,15 @@ a {
   max-width: 800px;
 
   font-weight: 400;
-  font-size: 5rem;
+  font-size: 4rem;
   line-height: 100%;
   letter-spacing: -0.06rem;
+}
+
+@media (min-height: 800px) {
+  .title-primary {
+    font-size: 5rem;
+  }
 }
 
 /* animation on load - title */
