@@ -487,7 +487,7 @@ a {
 /* animation on load */
 .wrapper-hero-bottom {
   overflow: hidden;
-  min-height: fit-content;
+  min-height: 160px;
 }
 
 .center {
